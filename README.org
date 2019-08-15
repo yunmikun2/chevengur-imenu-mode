@@ -1,0 +1,19 @@
+* chevengur-imenu-mode.el
+
+  Minor mode for Elixir/Phoenix imenu support.
+
+** Installation
+
+   You can install it with use-package:
+
+   #+BEGIN_SRC emacs-lisp
+   (use-package chevengur-imenu-mode
+     :quelpa
+     (chevengur-imenu-mode :fetcher github
+                                :repo "yunmikun2/chevengur-imenu-mode")
+     :hook elixir-mode)
+   #+END_SRC
+
+** Warning
+
+   I'm personally not sure if this module is of any use. :/
